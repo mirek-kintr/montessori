@@ -137,7 +137,6 @@ hr.separator {
   margin-bottom: 50px;
 }
 .center-title h2 {
-  text-transform: capitalize;
   font-weight: 500;
   font-size: 36px;
   margin-bottom: 15px;
@@ -653,7 +652,6 @@ hr.separator {
   font-weight: 300;
   font-size: 50px;
   line-height: 50px;
-  text-transform: capitalize;
 }
 .home-newsletter p {
   color: #fff;
@@ -753,7 +751,6 @@ hr.separator {
   color: #000;
   font-size: 20px;
   font-weight: 400;
-  text-transform: capitalize;
 }
 
 .aside-feature-row {
