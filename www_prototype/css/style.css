@@ -799,11 +799,10 @@ hr.separator {
   font-weight: 300;
   padding-top: 30px;
 }
-.wide-image-wrapper p {
-  padding-bottom: 30px;
-}
+
 .wide-image-wrapper .btn {
   margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 /**newsletter**/
