@@ -73,13 +73,15 @@
                             <div class="input-group">
                                 <input type="text" class="form-control" name="email" placeholder="Zadejte e-mail">
                                 <span class="input-group-btn">
-                                    <button class="btn btn-skin btn-radius btn-lg" name="submit" type="submit">Informujte mne</button>
+                                    <button class="btn btn-skin btn-radius btn-lg" name="submit" type="submit"
+									onclick="ga('send', 'event', { eventCategory: 'Informujte mne (newsletter)', eventAction: 'Click' })">Informujte mne</button>
                                 </span>
                             </div>
                         </form>
                         <div class="space-20"></div>
                         
-						<a href="http://chytre-hrani.reservio.com" target="_blank" class="btn btn-lg btn-radius btn-white">Rezervovat místo (již brzy)<i class="fa fa-calendar "></i></a>
+						<a href="http://chytre-hrani.reservio.com" target="_blank" class="btn btn-lg btn-radius btn-white"
+						onclick="ga('send', 'event', { eventCategory: 'Rezervovat (intro)', eventAction: 'Click' })">Rezervovat místo (již brzy)<i class="fa fa-calendar "></i></a>
                         </div>
                     </div>
                 </div>
@@ -228,13 +230,13 @@
 
                     </div>
                     <div class="col-sm-6 col-sm-offset-1 wow animated fadeInRight" data-wow-delay="0.4s">
-                        <img src="images/woman-mobile-work-25673615.jpg" class="img-responsive" alt="">
+                        <img src="images/co_nabizime_vam.jpg" class="img-responsive" alt="">
                     </div>
                 </div><!--side by side left right features row end, use the class .vertical-align-child .aside-feature-row into row-->
                 <hr>
                 <div class="row vertical-align-child aside-feature-row">
                     <div class="col-sm-6 margin-b-30 wow animated fadeInLeft" data-wow-delay="0.1s">
-                        <img src="images/enjoying-his-work-handsome-young-men-looking-camera-smiling-colleagues-working-background-55415320.jpg" class="img-responsive" alt="">
+                        <img src="images/co_nabizime_tatinkum.jpg" class="img-responsive" alt="">
                     </div>
                     <div class="col-sm-5 col-sm-offset-1 wow animated fadeInRight" data-wow-delay="0.2s">
                         <h3>Co nabízíme tatínkům</h3>
@@ -264,7 +266,7 @@
 
                     </div>
                     <div class="col-sm-6 col-sm-offset-1 wow animated fadeInRight" data-wow-delay="0.4s">
-                        <img src="images/coffe-time-7234164.jpg" class="img-responsive" alt="">
+                        <img src="images/relax_zona.jpg" class="img-responsive" alt="">
                     </div>
                 </div><!--side by side left right features row end, use the class .vertical-align-child .aside-feature-row into row-->
                 <!--hr>
@@ -384,7 +386,8 @@
                     <div class="col-sm-8 col-sm-offset-2 center-title">
                         <i class="icon-genius"></i>
                         <h2>Naše kroužky</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum quas necessitatibus nesciunt temporibus, adipisci aliquid inventore et quaerat alias.</p>                                     
+                        <p>Pečlivě nachystané podnětné prostředí, připravené uspokojit dětskou neutuchající 
+						zvídavost a touhu učit se pořád něco nového.</p>                                     
                     </div>
                 </div><!--center title row end--> 
                 <div class="row">
@@ -437,7 +440,8 @@
                         <!--p class="lead">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum quas necessitatibus nesciunt temporibus, adipisci aliquid inventore et quaerat alias. 
                         </p-->
-                        <a href="http://chytre-hrani.reservio.com" target="_blank"  class="btn btn-white btn-radius btn-lg">Rezervovat místo (již brzy)<i class="fa fa-calendar "></i></a>
+                        <a href="http://chytre-hrani.reservio.com" target="_blank"  class="btn btn-white btn-radius btn-lg"
+						onclick="ga('send', 'event', { eventCategory: 'Rezervovat (ziskejte znovu cas)', eventAction: 'Click' })">Rezervovat místo (již brzy)<i class="fa fa-calendar "></i></a>
                     </div>
                 </div>
             </div>
@@ -451,7 +455,8 @@
                     <div class="col-sm-8 col-sm-offset-2 center-title">
                         <i class="icon-pricetags"></i>
                         <h2>Ceník</h2>
-                        <p>Uvedené jsou ceny za jednorázové vstupné na kurz v délce 1,5 až 2,5 hodiny. Pro pravidelné návštěvníky či pro rodiče s více dětmi možnosti slevy.</p>                                     
+                        <p>Uvedené jsou ceny za jednorázové vstupné na kurz v délce 1,5 nebo 2 hodiny. <br>
+						Pro pravidelné návštěvníky či pro rodiče s více dětmi výrazné slevy.</p>                                     
                     </div>
                 </div><!--center title row end--> 
                 <div class="row">
@@ -460,12 +465,13 @@
                             <i class="icon-puzzle"></i>
                             <h3>Děti mladší 3 let</h3>
                             <div class="price">
-                                <sup>Kč</sup>150
+                                <sup>Kč</sup>150<sub>/1,5h</sub>
                             </div>
                             <p>
                                 Děti s doprovodem rodičů v montessori herně
                             </p>
-                            <a href="http://chytre-hrani.reservio.com" target="_blank"  class="btn btn-lg btn-default btn-radius">Rezervovat místo (již brzy)</a>
+                            <a href="http://chytre-hrani.reservio.com" target="_blank"  class="btn btn-lg btn-default btn-radius"
+							onclick="ga('send', 'event', { eventCategory: 'Rezervovat (do 3 let)', eventAction: 'Click' })">Rezervovat místo (již brzy)</a>
                         </div><!--price box end-->
                     </div><!--price col end-->
                     <div class="col-sm-4">
@@ -473,12 +479,13 @@
                             <i class="icon-genius"></i>
                             <h3>Děti mladší 6 let</h3>
                             <div class="price">
-                                <sup>Kč</sup>250
+                                <sup>Kč</sup>250<sub>/2h</sub>
                             </div>
                             <p>
                                 S pracovním či relaxačním místem pro rodiče v ceně
                             </p>
-                            <a href="http://chytre-hrani.reservio.com" target="_blank"  class="btn btn-lg btn-default btn-radius">Rezervovat místo (již brzy)</a>
+                            <a href="http://chytre-hrani.reservio.com" target="_blank"  class="btn btn-lg btn-default btn-radius"
+							onclick="ga('send', 'event', { eventCategory: 'Rezervovat (od 3 let)', eventAction: 'Click' })">Rezervovat místo (již brzy)</a>
                         </div><!--price box end-->
                     </div><!--price col end-->
                     <div class="col-sm-4">
@@ -486,12 +493,13 @@
                             <i class="icon-laptop"></i>
                             <h3>Děti do 6 let večer</h3>
                             <div class="price">
-                                <sup>Kč</sup>350
+                                <sup>Kč</sup>250<sub>/1,5h</sub>
                             </div>
                             <p>
                                 S pracovním místem nebo vzdělávacím kurzem pro rodiče v ceně
                             </p>
-                            <a href="http://chytre-hrani.reservio.com" target="_blank"  class="btn btn-lg btn-default btn-radius">Rezervovat místo (již brzy)</a>
+                            <a href="http://chytre-hrani.reservio.com" target="_blank"  class="btn btn-lg btn-default btn-radius"
+							onclick="ga('send', 'event', { eventCategory: 'Rezervovat (vecer)', eventAction: 'Click' })">Rezervovat místo (již brzy)</a>
                         </div><!--price box end-->
                     </div><!--price col end-->
                 </div>
@@ -562,7 +570,8 @@
                             </div>
                             <div class="row">
                                 <div class="col-sm-12 text-center">
-                                    <button type="submit" name="submit" class="btn btn-lg btn-skin btn-radius margin-b-20">Poslat zprávu</button>
+                                    <button type="submit" name="submit" class="btn btn-lg btn-skin btn-radius margin-b-20"
+									onclick="ga('send', 'event', { eventCategory: 'Poslat zpravu', eventAction: 'Click' })">Poslat zprávu</button>
                                 </div>
                             </div>
 
@@ -584,10 +593,11 @@
                     <div class="col-sm-4 margin-b-30">
                         <h2>Momentum Brno</h2>
                         <p>
-                            Over 2500+ happy customers since December 2014.We've create the classic, simple & fully featured Templates kit. In author language ASSAN means simple and easy to learn and use. 
+						Hledám pro mé dítě zajímavý kroužek, který ho posune dál, ne pouhé hlídání. Zároveň chci mít čas pro sebe a co nejlépe ho využít.
                         </p>
                         <div class="space-20"></div>
-                        <a href="http://chytre-hrani.reservio.com" target="_blank" class="btn btn-skin btn-radius btn-lg">Rezervovat místo (již brzy)<i class="fa fa-calendar"></i></a>
+                        <a href="http://chytre-hrani.reservio.com" target="_blank" class="btn btn-skin btn-radius btn-lg"
+						onclick="ga('send', 'event', { eventCategory: 'Rezervovat (paticka)', eventAction: 'Click' })">Rezervovat místo (již brzy)<i class="fa fa-calendar"></i></a>
                     </div>
                      <div class="col-sm-4 margin-b-30">
                         <h2>Kontakt</h2>
@@ -612,7 +622,7 @@
                      <div class="col-sm-4 margin-b-30">
                         <h2>Sledujte nás</h2>
                         <ul class="list-inline clearfix">
-                            <li><a href='#'><i class="fa fa-facebook-official"></i></a></li>
+                            <li><a href='#' onclick="ga('send', 'event', { eventCategory: 'FB Sledujte nas', eventAction: 'Click' })"><i class="fa fa-facebook-official"></i></a></li>
                             <!--li><a href='#'><i class="fa fa-twitter"></i></a></li>
                             <li><a href='#'><i class="fa fa-google-plus"></i></a></li>
                             <li><a href='#'><i class="fa fa-linkedin"></i></a></li>
@@ -733,6 +743,8 @@ headroom.init();
 		  ga('create', 'UA-75055648-1', 'auto');
 		  ga('send', 'pageview');
 
+		  setTimeout("ga('send', 'event', { eventCategory: '30 sekund na strance', eventAction: 'Read' })", 30000);
+		  setTimeout("ga('send', 'event', { eventCategory: '2 minuty na strance', eventAction: 'Read' })", 120000);
 		</script>
                         
     </body>

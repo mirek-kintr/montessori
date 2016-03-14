@@ -9,8 +9,8 @@ $(document).ready(function () {
     }
     //backstretch background slideshow using for banner intro
     $('.banner-slider').backstretch([
-        "images/young-mother-working-her-baby-home-53909745.jpg",
-		"images/woman-mobile-work-25673615.jpg"
+        "images/ziskejte_znovu_cas1.jpg",
+		"images/ziskejte_znovu_cas2.jpg"
     ], {
         fade: 750,
         duration: 3000
