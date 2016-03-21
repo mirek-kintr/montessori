@@ -37,7 +37,7 @@
             <div class="container">
                 <div class="navbar-header scroll-to">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
-                        <span class="sr-only">Toggle navigation</span>
+                        <span class="sr-only">Zobrazit menu</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -51,9 +51,14 @@
                         <li><a href="#features">Proč nás navštívit</a></li> 
                         <li><a href="#pricing">Ceník</a></li> 
                         <li><a href="#contact">Kontakt </a></li>
-
-
                     </ul>
+					<form class="navbar-form navbar-right">
+						<div class="form-group">
+							<button onClick="javascript:window.open('http://chytre-hrani.reservio.com', _blank)" 
+							class="btn-skin btn-radius btn-lg">Rezervovat místo <i class="fa fa-calendar "></i></button>
+						</div>
+					</form>
+					
                 </div><!--/.nav-collapse -->
             </div><!--/.container-fluid -->
         </header><!--navigation end here-->
@@ -70,7 +75,8 @@
 						zanechte nám e-mail.</p>
 						<p>100 nejrychlejších zájemců získá první vstup zdarma:</p>
 						
-											
+						<div class="space-20"></div>
+                        					
 						<!-- Begin MailChimp Signup Form -->
 						<div id="mc_embed_signup">
 							<form action="//momentumbrno.us13.list-manage.com/subscribe/post?u=0efafd413d07ac9291c38e171&amp;id=aaab75dded" 
@@ -94,8 +100,7 @@
 
 						<div class="space-20"></div>
                         
-						<a href="http://chytre-hrani.reservio.com" target="_blank" class="btn btn-lg btn-radius btn-white"
-						onclick="ga('send', 'event', { eventCategory: 'Rezervovat (intro)', eventAction: 'Click' })">Rezervovat místo (již brzy)<i class="fa fa-calendar "></i></a>
+						
                         </div>
                     </div>
                 </div>
@@ -259,7 +264,7 @@
                         <img src="images/co_nabizime_vam.jpg" class="img-responsive" alt="">
                     </div>
                 </div><!--side by side left right features row end, use the class .vertical-align-child .aside-feature-row into row-->
-                <hr>
+                <!--hr>
                 <div class="row vertical-align-child aside-feature-row">
                     <div class="col-sm-6 margin-b-30 wow animated fadeInLeft" data-wow-delay="0.1s">
                         <img src="images/co_nabizime_tatinkum.jpg" class="img-responsive" alt="">
@@ -271,9 +276,6 @@
                         <li><i class="fa fa-check-square"></i> Klid na kávu</li>
                         <li><i class="fa fa-check-square"></i> Setkávání se zajímavými lidmi</li>
                         </ul>
-                        <!--a class="btn btn-icon-only" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                            More
-                        </a-->
                     </div>
                 </div>
 				<hr>
@@ -286,15 +288,11 @@
                             <li><i class="fa fa-check-square"></i> Mějte chvíli čas jen na sebe</li>
                             <li><i class="fa fa-check-square"></i> Proberte s kamarádkou, co jinde nestihnete</li>
                         </ul>
-                        <!--a href="https://wrapbootstrap.com/theme/assan-multi-purpose-8-themes-in-1-WB05F069P" 
-						target="_blank" class="btn btn-radius btn-skin btn-lg">Learn more</a-->
-
-
                     </div>
                     <div class="col-sm-6 col-sm-offset-1 wow animated fadeInRight" data-wow-delay="0.4s">
                         <img src="images/relax_zona.jpg" class="img-responsive" alt="">
                     </div>
-                </div><!--side by side left right features row end, use the class .vertical-align-child .aside-feature-row into row-->
+                </div--><!--side by side left right features row end, use the class .vertical-align-child .aside-feature-row into row-->
                 <!--hr>
                 
                 <div class="space-40"></div-->
@@ -420,7 +418,7 @@
                 <div class="row">
                     <div class="col-sm-4">
                         <div class="gallery">
-                            <img src="images/IMGP5561.jpg" alt="" class="img-responsive">
+                            <img src="images/IMGP5561.jpg" alt="Stavebnice Magformers pro rozvoj prostorové představivosti" class="img-responsive">
                             <div class="gallery-overlay">
                                 <a href="images/IMGP5561.jpg" data-lightbox="gallery">
                                     <i class="icon-expand"></i>
@@ -440,9 +438,9 @@
                     </div><!--col end-->
                        <div class="col-sm-4">
                         <div class="gallery">
-                            <img src="images/sensory-learning-toy-material-elementary-school-used-montessori-pedagogic-to-introduce-child-to-feeling-volume-30380151.jpg" alt="" class="img-responsive">
+                            <img src="images/IMGP5645.jpg" alt="Kuličková dráha jako moderní forma Kosmické výchovy" class="img-responsive">
                             <div class="gallery-overlay">
-                                <a href="images/sensory-learning-toy-material-elementary-school-used-montessori-pedagogic-to-introduce-child-to-feeling-volume-30380151.jpg" data-lightbox="gallery">
+                                <a href="images/IMGP5645.jpg" data-lightbox="gallery">
                                     <i class="icon-expand"></i>
                                 </a>
                             </div>
@@ -604,7 +602,7 @@
 		<div id="map-canvas" style="width: 100%;height: 400px;"></div>
 
         <!--footer start-->
-        <footer class="footer">
+        <footer class="footer" id="contact">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-4 margin-b-30">
@@ -744,6 +742,13 @@
 		  setTimeout("ga('send', 'event', { eventCategory: '30 sekund na strance', eventAction: 'Read' })", 30000);
 		  setTimeout("ga('send', 'event', { eventCategory: '2 minuty na strance', eventAction: 'Read' })", 120000);
 		</script>
-                        
+    <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+	<script type="text/javascript">
+		window.cookieconsent_options = {"message":"Naše stránka používá cookies.","dismiss":"Rozumím!","learnMore":"Více","link":null,"theme":"light-bottom"};
+	</script>
+
+	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js"></script>
+	<!-- End Cookie Consent plugin -->
+                    
     </body>
 </html>
