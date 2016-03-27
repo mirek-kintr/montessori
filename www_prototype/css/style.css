@@ -1054,3 +1054,32 @@ hr.separator {
     font-size: 12px;
   }
 }
+
+/****
+
+NUMBERS
+
+******/
+.numbers {
+  background: url(../img/showcase-5.jpg) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 00px;
+  padding-bottom: 70px;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  background-position: 0 50%; }
+  .numbers h1 {
+    color: red;
+    margin: 15px 0; }
+  .numbers i {
+    color: gray;
+    font-size: 36px; }
+  .numbers p {
+    color: gray;
+    margin: 0px;
+    font-family: "Josefin Sans", sans-serif;
+    text-transform: uppercase;
+    font-weight: 400; }
+
