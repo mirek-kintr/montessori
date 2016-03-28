@@ -638,7 +638,7 @@ hr.separator {
 
 /***banner home newsletter****/
 .home-newsletter {
-  background: url(../images/intro.jpg) no-repeat;
+  background: url(../images/intro_1920.jpg) no-repeat;
   background-size: cover;
   background-color:rgba(255,255,255,0.5)
   -webkit-background-size: cover;
@@ -787,7 +787,7 @@ hr.separator {
   padding: 0;
 }
 .wide-image-wrapper .img-right {
-  background: url(../images/colors-idea-newtons-ball-concept-36236914.jpg) 50% 0 no-repeat;
+  background: url(../images/newtons_cradle.jpg) 50% 0 no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
